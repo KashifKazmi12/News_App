@@ -1,0 +1,44 @@
+.navbaar-padding{
+    padding: 0 80px;
+}
+
+.top-heading{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    margin-top: 10px;
+
+    box-shadow: 0 10px 56px #212529;
+}
+
+@media (max-width:800px){
+
+    .top-heading{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:600px){
+    .navbaar-padding{
+        padding: 0 20px;
+    }
+
+    .top-heading{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:400px){
+
+    .top-heading{
+        font-size: 22px;
+    }
+}
